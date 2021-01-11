@@ -1,4 +1,4 @@
-package guru.springframework.didemo;
+package guru.springframework;
 
 import guru.springframework.controllers.ConstructorInjectedController;
 import guru.springframework.controllers.MyController;
@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
 @Configuration
-@ComponentScan(basePackages = {"guru.springframework.controllers"})
+//@ComponentScan(basePackages = {"guru.springframework.controllers"})
 public class DiDemoApplication {
 
     public static void main(String[] args) {
