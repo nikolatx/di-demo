@@ -1,5 +1,7 @@
 package guru.springframework.services;
 
+import org.springframework.stereotype.Service;
+
 public class GreetingServiceFactory {
 
     private GreetingRepository greetingRepository;
